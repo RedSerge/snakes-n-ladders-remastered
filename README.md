@@ -1,4 +1,4 @@
-# Snakes & Ladders: Remastered (MVP)
+# Snakes & Ladders: Remastered (MVP -- concept / early prototype)
 
 This idea came to me when I realized that in the classic Snakes & Ladders, I am not a player but a spectator of a random event. I wanted more action, so I decided to change that, improve the rules, and make “the Shadow Tournament” for my own joy.
 
