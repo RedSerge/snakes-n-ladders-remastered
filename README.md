@@ -22,6 +22,8 @@ The dice-by-dice cache usage in this situation will result in a series of moveme
 
 60 -> 61 (current throw) -> 62 (a snake to 19) -> 25 -> 27 -> 32 -> 37. A downfall. But thanks (?) to the snake, you can cache one more dice now (your reserving capacity is one).
 
+(Also notice, that this cache example is not actually possible under new rules -- the cache can't end on 5 or 6 due to double-roll rule).
+
 This concept of an app :) uses Python & Flask, so if you got both installed, you can just run “app.py” from a console and open “localhost:5000” in your browser.
 
 To make a move, you must press two keys – first, 1 or 2 for the violet or the green piece, respectively – or ‘\`’, that symbol under tilde ‘~’ on the same key if you don’t want to move your pieces but want to cache the current dice chain instead if it’s possible (in the text “CACHED DICE: (N to add)” N must be greater than 0).
