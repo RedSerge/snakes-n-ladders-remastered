@@ -22,7 +22,7 @@ The dice-by-dice cache usage in this situation will result in a series of moveme
 
 60 -> 61 (current throw) -> 62 (a snake to 19) -> 25 -> 27 -> 32 -> 37. A downfall. But thanks (?) to the snake, you can cache one more dice now (your reserving capacity is one).
 
-(Also notice, that this cache example is not actually possible under new rules -- the cache can't end on 5 or 6 due to double-roll rule).
+_Note_: this cache example is not actually possible under new rules -- the cache can't end on 5 or 6 due to the updated double-roll rule.
 
 This concept of an app :) uses Python & Flask, so if you got both installed, you can just run “app.py” from a console and open “localhost:5000” in your browser.
 
@@ -52,6 +52,6 @@ The result is printed with the 2nd player in mind. If he is defeated, then it’
 
 Now the 2nd player presses the ‘DEL’ key and starts anew, trying to defeat bots and restart the Shadow Tournament for you. And so on.
 
-Tip: one more thing, if you want to turn the bots off completely, just make a file called “.nobots” in the directory with the game (with app.py).
+_Tip_: one more thing, if you want to turn the bots off completely, just make a file called “.nobots” in the directory with the game (with app.py).
 
 Enjoy (if you can :’D ) this raw prototype version of my idea. You can always play it in real life; it’s just computer usually counts faster. :))) 
