@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="{{ url_for('static', filename='snakes.css') }}">
+</head>
+<body>
+	<img id="snakedraw" style="display:none" src="{{ url_for('static', filename='snakeboard.png') }}"/>
+	<canvas id="board" width="660" height="601"></canvas>
+	<script src="{{ url_for('static', filename='snakes.js') }}"></script>
+	<div style="float:right">
+		<div>ROUND # <span id="round">0</span>, CURRENT THROW:</div>
+		<div id="throw">
+		</div>
+		<hr>
+		<div>CACHED DICE: (<span id="cacheable">0</span> to add)</div>
+		<div id="cached">
+		</div>
+		<hr>
+		<br>
+		<div>RESPONSE:<span id="send"></span></div>
+		<hr>
+	</div>
+</body>
+</html>
