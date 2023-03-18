@@ -22,7 +22,7 @@ The dice-by-dice cache usage in this situation will result in a series of moveme
 
 60 -> 61 (current throw) -> 62 (a snake to 19) -> 25 -> 27 -> 32 -> 37. A downfall. But thanks (?) to the snake, you can cache one more dice now (your reserving capacity is one).
 
-This concept of an app :) is using Python & Flask, so if you got both installed, you can just run “app.py” from a console and open “localhost:5000” in your browser.
+This concept of an app :) uses Python & Flask, so if you got both installed, you can just run “app.py” from a console and open “localhost:5000” in your browser.
 
 To make a move, you must press two keys – first, 1 or 2 for the violet or the green piece, respectively – or ‘\`’, that symbol under tilde ‘~’ on the same key if you don’t want to move your pieces but want to cache the current dice chain instead if it’s possible (in the text “CACHED DICE: (N to add)” N must be greater than 0).
 The second key represents the way you want to use your cache: ‘dice-by-dice’ (press ‘[‘), ‘simultaneously’ (press ‘]’), or don’t want to use it yet (any other key).
@@ -50,6 +50,6 @@ The result is printed with the 2nd player in mind. If he is defeated, then it’
 
 Now the 2nd player presses the ‘DEL’ key and starts anew, trying to defeat bots and restart the Shadow Tournament for you. And so on.
 
-Tip: one more thing, if you want to turn the bots off completely, just make a file called “.nobots” in the directory with the game (app.py). I provided some cmd scripts to make it easier for Windows users (“bots on/bots off” commands, as some versions of Windows prevent you from making empty-named files; Linux users can just create them, though, with no problem).
+Tip: one more thing, if you want to turn the bots off completely, just make a file called “.nobots” in the directory with the game (with app.py).
 
 Enjoy (if you can :’D ) this raw prototype version of my idea. You can always play it in real life; it’s just computer usually counts faster. :))) 
