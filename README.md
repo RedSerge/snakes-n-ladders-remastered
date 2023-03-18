@@ -10,7 +10,7 @@ You can use your cache in two ways. First, use it fully or ‘simultaneously’.
 
 Let’s look at the map to understand it better.
 
-![A version of a map](/image/sample.png "A version of a map used in this MVP")
+![A version of a map](/static/snakeboard.png "A version of a map used in this MVP")
 
 Say, a piece position is at 60, a current throw is 1, and the cache is [1, 6, 2, 5, 5].
 
