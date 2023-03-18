@@ -28,7 +28,7 @@ _Note_: this cache example is not actually possible under new rules -- the cache
 
 ---
 
-This concept of an app :) uses Python & Flask, so if you got both installed, you can just run “app.py” from a console and open “localhost:5000” in your browser.
+This concept of an app :) uses [Python](https://www.python.org) & [Flask](https://flask.palletsprojects.com/), so if you got both installed, you can just run “app.py” from a console and open “localhost:5000” in your browser.
 
 To make a move, you must press two keys – first, 1 or 2 for the violet or the green piece, respectively – or ‘\`’, that symbol under tilde ‘~’ on the same key if you don’t want to move your pieces but want to cache the current dice chain instead if it’s possible (in the text “CACHED DICE: (N to add)” N must be greater than 0).
 The second key represents the way you want to use your cache: ‘dice-by-dice’ (press ‘[‘), ‘simultaneously’ (press ‘]’), or don’t want to use it yet (any other key).
