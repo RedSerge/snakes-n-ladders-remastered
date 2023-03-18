@@ -8,6 +8,8 @@ Now, about some improvements. First, players have two pieces each, and they can 
 
 You can use your cache in two ways. First, use it fully or ‘simultaneously’. Second, use it ‘dice-by-dice’. In both cases, the piece first makes its turn according to the rolled combination. Then, the cache is applied. ‘Simultaneously’ means that the whole accumulated sum is used to move the piece in one big move. ‘Dice-by-dice’ means that the piece is moved by each dice number one dice after another, taking into consideration all ladders and snakes along the way.
 
+---
+
 Let’s look at the map to understand it better.
 
 ![A version of a map](/static/snakeboard.png "A version of a map used in this MVP")
@@ -24,6 +26,8 @@ The dice-by-dice cache usage in this situation will result in a series of moveme
 
 _Note_: this cache example is not actually possible under new rules -- the cache can't end on 5 or 6 due to the updated double-roll rule.
 
+---
+
 This concept of an app :) uses Python & Flask, so if you got both installed, you can just run “app.py” from a console and open “localhost:5000” in your browser.
 
 To make a move, you must press two keys – first, 1 or 2 for the violet or the green piece, respectively – or ‘\`’, that symbol under tilde ‘~’ on the same key if you don’t want to move your pieces but want to cache the current dice chain instead if it’s possible (in the text “CACHED DICE: (N to add)” N must be greater than 0).
@@ -31,6 +35,8 @@ The second key represents the way you want to use your cache: ‘dice-by-dice’
 In fact, the second key is useless if you press the ‘\`’ key but saved for the sake of an input uniformity, so you have to spend roughly equal time for each movement, which is important for the Shadow Tournament; more about that later. Usually, it’s good to double-press the first key if you don’t plan to use your cache, like ‘1’-‘1’, ‘2’-‘2’, ‘\`’-‘\`’ sequentially.
 
 Pieces move until someone has won by placing his piece on the last cell, # 100. To reset the game, you can press the ‘DEL’ key. Or, if you are the winner, you can press the ‘Ctrl+DEL’ combination to enter the Shadow Tournament, a type of hot-seat mode.
+
+---
 
 In the Shadow Tournament mode, the bots are turned off. You can invite your friend (who hopefully was not looking at how you played) and encourage him to repeat your last journey: he will get the same dice as you (or random ones after he’s exceeded the number of steps you’ve taken to the finish). If he manages to spend less/equal quantity of steps and time (counted from the first performed move to the finish) to get his victory, he is considered a winner, and if not – then it’s you. 
 
@@ -52,6 +58,10 @@ The result is printed with the 2nd player in mind. If he is defeated, then it’
 
 Now the 2nd player presses the ‘DEL’ key and starts anew, trying to defeat bots and restart the Shadow Tournament for you. And so on.
 
+---
+
 _Tip_: one more thing, if you want to turn the bots off completely, just make a file called “.nobots” in the directory with the game (with app.py).
+
+---
 
 Enjoy (if you can :’D ) this raw prototype version of my idea. You can always play it in real life; it’s just computer usually counts faster. :))) 
