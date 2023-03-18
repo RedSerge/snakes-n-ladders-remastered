@@ -1,6 +1,6 @@
 # Snakes & Ladders: Remastered (MVP -- concept / early prototype)
 
-This idea came to me when I realized that in the classic Snakes & Ladders, I am not a player but a spectator of a random event. I wanted more action, so I decided to change that, improve the rules, and make “the Shadow Tournament” for my own joy.
+This idea came to me when I realized that in the classic (Snakes & Ladders)[https://en.wikipedia.org/wiki/Snakes_and_ladders], I am not a player but a spectator of a random event. I wanted more action, so I decided to change that, improve the rules, and make “the Shadow Tournament” for my own joy.
 
 The main rules are the same: you roll the dice and move your piece to the corresponding cell. If there’s a blue arrow (stair), you move up. If there’s an orange arrow (snake), you move down. If you get the dice number 6, you roll the dice again. If you go beyond 100, you must “bounce” from the last cell (101 -> 99, 102 -> 98, etc.). Then you pass the turn to another player. The winner is the one who’s reached the 100 first.
 
